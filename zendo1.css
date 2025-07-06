@@ -370,3 +370,30 @@ main>.carosel{
 .scrollbar-hide::-webkit-scrollbar {
   display: none;             /* Chrome, Safari, Opera */
 }
+  @media screen and (nin-width:1224px) {
+            .header-1 {
+                background-color: blue;
+                max-width: 1224px !important;
+            }
+            
+            
+            
+        }
+      
+        .drop1:active{
+            height: 300px;
+            transition: all 200ms ease;
+        }
+        .cards{
+            width: 400px !important;
+            padding:0 10px !important;
+        }
+        .seth{
+            width: 300px !important;
+        }
+        .hello{
+            transition: all 200ms ease-in-out;
+        }
+        .hello:active{
+            background-color: purple;
+        }
